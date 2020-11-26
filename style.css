@@ -1,0 +1,53 @@
+.social-part .fa{
+    padding-right:20px;
+}
+ul li a{
+    margin-right: 20px;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .logo{
+    color: black;
+      font-weight: bold;
+      font-size: 300px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .title{
+    color: black;
+    font-weight: bold;
+    font-size: 80px;
+  }
+  .title2{
+    font-size: 35px; 
+    font-weight: normal; 
+  }
+
+  .margin{
+    margin-left: 100px;
+    margin-right: 100px;
+
+  }
+
+  .page-footer{
+      background: grey;
+      color: white;
+  }
+
+  footer a{
+      text-decoration: black;
+      
+  }
+  .foot a:link {
+    color: black;
+
+  }
+
+  
+
