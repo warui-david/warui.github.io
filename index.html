@@ -29,7 +29,7 @@
               </a>
             </div>
             <li class="nav-item">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
@@ -53,7 +53,7 @@
               <i class="fa fa-shopping-cart" aria-hidden="true"></i> 
             </a>
             <div class="dropdown-menu sm-menu">
-              <a class="dropdown-item" href="#">My cart</a>
+              <a class="dropdown-item" href="shop.html">My cart</a>
               <a class="dropdown-item" href="#">Checkout</a>
             </div>
           </li>
@@ -94,7 +94,7 @@
               The only way to be cool is to rock the Ndula
             </div>
             <div class="col-md-6 text-center shop">
-              <a href="#" class="btn btn-secondary btn-lg btn-block">Shop</a>
+              <a href="shop.html" class="btn btn-secondary btn-lg btn-block">Shop</a>
             </div>
           </div>
         </div>
@@ -114,7 +114,7 @@
               <img src="images/men5.jpg" class="img-fluid" alt="">
             </div>    
             <div class="text-center">
-              <a href="#" class="btn btn-primary text-center btn-lg">Shop</a> 
+              <a href="#" class="btn btn-primary text-center btn-lg">View Items</a> 
             </div>
             <br>
           </div>
@@ -127,7 +127,7 @@
               <img src="images/men2.jpg" class="img-fluid" alt="">
             </div>    
             <div class="text-center">
-              <a href="#" class="btn btn-primary text-center btn-lg">Shop</a> 
+              <a href="#" class="btn btn-primary text-center btn-lg">View Items</a> 
             </div>
             <br>
           </div>
@@ -177,7 +177,7 @@
                     <div class="card-body">
                       <h4 class="card-title">Vans</h4>
                       <p class="card-text">Kshs. 900.00</p>
-                      <a class="btn btn-primary">SHOP</a>
+                      <a href="" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary">SHOP</a>
                     </div>
                   </div>
                 </div>
@@ -220,6 +220,42 @@
 
               </div>
               <!--/.First slide-->
+
+              <!-- modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                      <div class="col-md-4">
+                        <img src="images/vans.jpg" class="img-fluid" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <h3>Vans</h3>
+                        <hr>
+                        <p>Off the Wall</p>
+                        <hr>
+                        <span>Kshs. 900</span>
+                        <div class="clear-fix"></div>
+                        <h4>Description:</h4>
+                        <p class="text-muted">Rubber sole with a leather top and red laces</p>
+                        <hr>
+                        
+                      </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <a href="shop.html" type="button" class="btn btn-secondary">View cart</a>
+                      <a href="" type="button" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
               <!--Second slide-->
               <div class="carousel-item">
