@@ -4,6 +4,10 @@
 ul li a{
     margin-right: 20px;
 }
+
+.login{
+  margin-right: 100px;
+}
 body{
   margin: 0;
   padding: 0;
